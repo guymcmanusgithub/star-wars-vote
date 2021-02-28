@@ -18,15 +18,15 @@ function App() {
   const [errorMessage, setErrorMessage] = useState<string>('')
 
   useEffect(() => {
-    fetchData()
+    return fetchData()
     .then((data:AxiosResponse<SWAPIData>) => { 
       const {data:{results}} = data
       
       const newMovieArray:Array<Movie> = results.map((movie:Results) => (
         {
-        title: movie.title,
-        votes: 0,
-        date: movie.release_date
+          title: movie.title,
+          votes: 0,
+          date: movie.release_date
         }
       ))
       // The data from SWAPI already comes back sorted by date, so the below function is simply a failsafe if the api decides to return the data not sorted by date in the future.

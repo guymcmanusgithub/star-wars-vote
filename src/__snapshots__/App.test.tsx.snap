@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> component shows three possible components calls the get method from axios 1`] = `
+<div
+  class="sc-fubCfw ewlTFH"
+  data-testid="app-container"
+>
+  <h1
+    class="sc-pFZIQ dVfauT"
+  >
+    Vote Wars
+  </h1>
+  <table
+    class="sc-bdfBwQ kSOtiz"
+  >
+    <caption
+      class="sc-gsTCUz iNWYbO"
+    >
+      Vote for your favorite Star Wars movie:
+    </caption>
+    <thead
+      class="sc-dlfnbm"
+    >
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <th
+          class="sc-jSgupP kXXhUQ"
+          id="movie-title"
+        >
+          Movie Title
+        </th>
+        <th
+          class="sc-jSgupP kXXhUQ"
+          id="vote"
+        >
+          Vote
+        </th>
+        <th
+          class="sc-jSgupP kXXhUQ"
+          id="total-votes"
+        >
+          Total Votes
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="sc-hKgILt"
+    >
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="movie-title"
+        >
+          A New Hope
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="vote"
+        >
+          <button
+            aria-label="vote-button"
+            class="sc-iBPRYJ cdPLuh"
+            data-testid="button-A New Hope"
+          >
+            vote
+          </button>
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          data-testid="votes-A New Hope"
+          headers="total-votes"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="movie-title"
+        >
+          The Empire Strikes Back
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="vote"
+        >
+          <button
+            aria-label="vote-button"
+            class="sc-iBPRYJ cdPLuh"
+            data-testid="button-The Empire Strikes Back"
+          >
+            vote
+          </button>
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          data-testid="votes-The Empire Strikes Back"
+          headers="total-votes"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="movie-title"
+        >
+          Return of the Jedi
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="vote"
+        >
+          <button
+            aria-label="vote-button"
+            class="sc-iBPRYJ cdPLuh"
+            data-testid="button-Return of the Jedi"
+          >
+            vote
+          </button>
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          data-testid="votes-Return of the Jedi"
+          headers="total-votes"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="movie-title"
+        >
+          The Phantom Menace
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="vote"
+        >
+          <button
+            aria-label="vote-button"
+            class="sc-iBPRYJ cdPLuh"
+            data-testid="button-The Phantom Menace"
+          >
+            vote
+          </button>
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          data-testid="votes-The Phantom Menace"
+          headers="total-votes"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="movie-title"
+        >
+          Attack of the Clones
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="vote"
+        >
+          <button
+            aria-label="vote-button"
+            class="sc-iBPRYJ cdPLuh"
+            data-testid="button-Attack of the Clones"
+          >
+            vote
+          </button>
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          data-testid="votes-Attack of the Clones"
+          headers="total-votes"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="sc-eCssSg gSspkk"
+      >
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="movie-title"
+        >
+          Revenge of the Sith
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          headers="vote"
+        >
+          <button
+            aria-label="vote-button"
+            class="sc-iBPRYJ cdPLuh"
+            data-testid="button-Revenge of the Sith"
+          >
+            vote
+          </button>
+        </td>
+        <td
+          class="sc-gKsewC gbAxPW"
+          data-testid="votes-Revenge of the Sith"
+          headers="total-votes"
+        >
+          0
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p
+    class="sc-jrAGrp gLqfYD"
+  >
+    Total Votes: 
+    <span
+      class="sc-kEjbxe"
+    >
+      0
+    </span>
+  </p>
+</div>
+`;
+
+exports[`<App/> component shows three possible components shows a loading screen before returning API data 1`] = `
+<p
+  class="sc-jrAGrp gLqfYD"
+  data-testid="loading"
+>
+  I find your lack of faith disturbing.  The app is 
+  <strong>
+    Loading...
+  </strong>
+</p>
+`;
+
+exports[`<App/> component shows three possible components shows an error screen when erroring 1`] = `
+<p
+  class="sc-jrAGrp gLqfYD"
+  data-testid="api-error"
+>
+  You would be wise to surrender. An error has occurred: 
+</p>
+`;

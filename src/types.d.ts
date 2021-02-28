@@ -1,3 +1,7 @@
+type InitialMovieData = {
+  data: SWAPIData
+}
+
 type Movie = {
   title: string;
   votes: number;
